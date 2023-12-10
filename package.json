@@ -1,4 +1,8 @@
 {
+  "name": "astro-landing-page",
+  "version": "1.0.0",
+  "description": "ASFSA landing page project",
+  "main": "page.tsx",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -7,8 +11,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "next": "^14.0.4",
     "react": "^18.2.0",
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
