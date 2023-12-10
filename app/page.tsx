@@ -10,8 +10,10 @@ export default function Home() {
     const matchDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     setIsDarkMode(matchDark);
 
-    const handleChange = (e) => {
-      setIsDarkMode(e.matches);
+    const handleChange = (e: Event) => {
+      const handleChange = (e: MediaQueryListEvent) => {
+        setIsDarkMode(e.matches);
+      };
     };
 
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', handleChange);
