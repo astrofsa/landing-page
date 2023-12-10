@@ -18,6 +18,6 @@ This website will be only utilized during we update our content in our main page
 1. npm install -D
 2. npm run dev
 ```
-\3. Visit [http://localhost:3000](httplocalhost:3000) with your browser to see the result.
+3. Visit [http://localhost:3000](httplocalhost:3000) with your browser to see the result.
 
 This project uses next/font to automatically optimize and load Inter, a custom Google Font.
